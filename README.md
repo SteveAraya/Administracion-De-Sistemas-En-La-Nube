@@ -26,6 +26,16 @@ Escribir un script que imprima en este orden y en líneas diferentes:
 * El primer y segundo argumentos, ambos en la misma línea.
 * Si hay más de dos argumentos, los argumentos a partir del tercero (este incluido) cada uno en una línea. 
 
+Ejecutar el siguiente comando para probar con más de 2 parámetros:
+```
+bash ejercicio_3.sh Hola Mundo Son Las 4:00pm
+```
+
+Ejecutar el siguiente comando para probar con 2 parámetros:
+```
+bash ejercicio_3.sh Hola Mundo
+```
+
 ### Ejercicio 4 (Andres)
 Escribir un script que copie un archivo sobre otro, garantizando que solo reciba dos parámetros.
 
