@@ -18,6 +18,10 @@ Como resultado, se mostrará un mensaje que deescriba si no se ingrersó el argu
 
 ### Ejercicio 2 (Enrique)
 Escribir un script que ejecute cierta acción en función de la extensión de un archivo que recibe como parámetro. Si se trata de un JPG, copiar dicho archivo en la carpeta ~/fotos. Si resulta ser de otro formato, avisar al usuario sin hacer nada.
+- Para ejectutar el script, en terminal bash posicionarse en la ubicación del script y ejecutar el siguiente comando.
+```
+bash ejercicio_2.sh ./nombreArchivo.tipoArchivo
+```
 
 ### Ejercicio 3 (Steve)
 Escribir un script que imprima en este orden y en líneas diferentes:
@@ -48,3 +52,7 @@ Como resultado, se realizará una copia del archivo origen y se copiará a uno n
 
 ### Ejercicio 5 (Enrique)
 Escribir un script que renombre todos los ficheros con extensión JPG del directorio actual, añadiendo un prefijo con la fecha en formato año, mes, día. Por ejemplo, un fichero con nombre imagen1.jpg pasaría a llamarse 20200413-image1.jpg, si el script se ejecuta el 13 de abril de 2020.
+- Para ejecutar el script, en terminal bash posicionarse en la ubicación del script y ejecutar el siguiente comando.
+```
+bash ejercicio5.sh
+```
